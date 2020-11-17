@@ -1,5 +1,5 @@
 <?php
-namespace Jahan\Filter;
+namespace Jahan\Filters;
 
 use Jahan\Collections\Common as Collections;
 
