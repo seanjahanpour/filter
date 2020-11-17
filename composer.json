@@ -1,11 +1,22 @@
 {
+	"name":	"jahan/filter",
+	"type": "library",
+	"homepage": "https://github.com/seanjahanpour/filter",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Sean Jahanpour",
+			"email": "sean@jahanpour.com"
+		}
+	],
+	"description": "Filter library for PHP",
 	"require": {
-	    "jahan/collections": ">=1.0"
+		"php": ">7.2",
+		"jahan/collections": ">=1.0"
 	},
 	"autoload": {
-	    "psr-4": {
-		"Jahan\\Filter\\":"src/"
-	    }
+		"psr-4": {
+			"Jahan\\Filter\\":"src/"
+		}
 	}
-    }
-    
+}

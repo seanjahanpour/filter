@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c459eea4ed122da7738f744cad818242",
+    "packages": [
+        {
+            "name": "jahan/collections",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seanjahanpour/collections.git",
+                "reference": "5c21e11ef4bef77c84b132140947f7387c291225"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seanjahanpour/collections/zipball/5c21e11ef4bef77c84b132140947f7387c291225",
+                "reference": "5c21e11ef4bef77c84b132140947f7387c291225",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jahan\\Collections\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sean Jahanpour",
+                    "email": "sean@jahanpour.com"
+                }
+            ],
+            "description": "Set of collection for use by other libraries",
+            "homepage": "https://github.com/seanjahanpour/collections",
+            "time": "2020-11-17T22:11:16+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">7.2"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
