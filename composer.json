@@ -1,7 +1,7 @@
 {
-	"name":	"jahan/filter",
+	"name":	"jahan/filters",
 	"type": "library",
-	"homepage": "https://github.com/seanjahanpour/filter",
+	"homepage": "https://github.com/seanjahanpour/filters",
 	"license": "MIT",
 	"authors": [
 		{
@@ -16,7 +16,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Jahan\\Filter\\":"src/"
+			"Jahan\\Filters\\":"src/"
 		}
 	}
 }
