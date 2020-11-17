@@ -13,7 +13,7 @@ filtered string
 
 ###### example
 ```
-use Jahan\Filter
+use Jahan\Filter\Str as Filter
 ...
 echo Filter::alpha_numeric("Hello World!", $exclusions = ['!'], $replacement = '_');	//outputs Hello_World!
 ```
@@ -31,7 +31,7 @@ filtered string
 
 ###### example
 ```
-use Jahan\Filter
+use Jahan\Filter\Str as Filter
 ...
 echo Filter::numbers_only("Hello World!123.22", $exclusions = ['.']);	//outputs 123.22
 ```
@@ -47,7 +47,7 @@ filter specific characters from string.
 ###### returns
 filtered string
 ```
-use Jahan\Filter
+use Jahan\Filter\Str as Filter
 ...
 echo Filter::filter("Hello World!", $allowed_characters = ['h','e'], $replacement = '');	//outputs e
 //Note: allowed_characters is case sensitive.
@@ -55,7 +55,7 @@ echo Filter::filter("Hello World!", $allowed_characters = ['h','e'], $replacemen
 
 
 
-# Usage
+# Installation
 ## Composer
 ```
 php composer.phar require jahan/filter
