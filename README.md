@@ -11,7 +11,7 @@ Remove any non-alphanumeric character and any character specified in $exclusions
 ###### returns
 filtered string
 ```
-use Jahan/Filter
+use Jahan/Filter/Str as Filter
 ...
 echo Filter::alpha_numeric("Hello World!", $exclusions = ['!'], $replacement = '_');	//outputs Hello_World!
 ```
@@ -29,7 +29,7 @@ filtered string
 
 ###### example
 ```
-use Jahan/Filter
+use Jahan/Filter/Str as Filter
 ...
 echo Filter::numbersonly("Hello World!123.22", $exclusions = ['.']);	//outputs 123.22
 ```
@@ -45,7 +45,7 @@ filter specific characters from string.
 ###### returns
 filtered string
 ```
-use Jahan/Filter
+use Jahan/Filter/Str as Filter
 ...
 echo Filter::filter("Hello World!", $allowed_characters = ['h','e']);	//outputs e
 //Note: allowed_characters is case sensitive.
