@@ -1,1 +1,1 @@
-# flter
+# Filter class for PHP
