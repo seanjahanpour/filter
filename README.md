@@ -53,7 +53,7 @@ echo Filter::filter("Hello World!", $allowed_characters = ['h','e']);	//outputs 
 
 
 
-# Usage
+# Installation
 ## Composer
 ```
 php composer.phar require jahan/filter
