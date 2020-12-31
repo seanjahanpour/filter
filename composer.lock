@@ -4,19 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01c8cdee477cba5da9b135f00e8e19ed",
+    "content-hash": "dfa91a727b89f93e72e2cdb4a509aba1",
     "packages": [
         {
-            "name": "jahan/collections",
+            "name": "jahan/collection",
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/seanjahanpour/collections.git",
+                "url": "https://github.com/seanjahanpour/collection.git",
                 "reference": "5c21e11ef4bef77c84b132140947f7387c291225"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/seanjahanpour/collections/zipball/5c21e11ef4bef77c84b132140947f7387c291225",
+                "url": "https://api.github.com/repos/seanjahanpour/collection/zipball/5c21e11ef4bef77c84b132140947f7387c291225",
                 "reference": "5c21e11ef4bef77c84b132140947f7387c291225",
                 "shasum": ""
             },
